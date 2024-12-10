@@ -1,0 +1,108 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  /* Search Bar */
+  .search-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f4f4f4;
+  }
+  
+  #searchInput {
+    width: 250px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+  }
+  
+  #searchButton {
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #searchButton:hover {
+    background-color: #45a049;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* Main Container */
+  .container {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  /* Sidebar */
+  aside {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    width: 20%;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  aside h2 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Stations Section */
+  .stations {
+    flex: 1;
+    padding: 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  /* Station Cards Grid */
+  #stationCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+  }
+  
+  /* Individual Card Styling */
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card h3 {
+    color: #4CAF50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card p {
+    margin: 0.5rem 0;
+  }
+  
+  /* Card Hover Effect */
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
